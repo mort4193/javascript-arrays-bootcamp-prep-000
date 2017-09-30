@@ -40,3 +40,9 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop(0)
   return array
 }
+
+function removeElementFromEndOfArray(array){
+vary myArray=array.slice(0,array.length()-1)
+return myArray 
+  
+}
